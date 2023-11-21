@@ -29,7 +29,6 @@ pub fn precompile(
         mut sig,
         block: _,
     } = item.clone();
-    let original_name = sig.ident.clone();
 
     let mut new_attrs = Vec::new();
     let mut types: Vec<Vec<_>> = Vec::new();
