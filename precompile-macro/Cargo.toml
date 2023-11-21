@@ -1,0 +1,18 @@
+[package]
+name = "precompile-macro"
+version = "0.1.0"
+edition = "2021"
+authors = ["sarah <>"]
+description = "Monomorphization precompilation library"
+readme = "../README.md"
+repository = "https://github.com/sarah-ek/precompile/"
+license = "MIT"
+keywords = ["precompilation"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.69"
+quote = "1.0.33"
+syn = { version = "2.0.39", features = ["full"] }

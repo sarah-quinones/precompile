@@ -1,0 +1,1 @@
+workspace = { members = [ "precompile","precompile-macro", "precompile-test"], resolver = "2" }

@@ -1,0 +1,13 @@
+[package]
+name = "precompile"
+version = "0.1.0"
+edition = "2021"
+authors = ["sarah <>"]
+description = "Monomorphization precompilation library"
+readme = "../README.md"
+repository = "https://github.com/sarah-ek/precompile/"
+license = "MIT"
+keywords = ["precompilation"]
+
+[dependencies]
+precompile-macro = { version = "0.1.0", path = "../precompile-macro" }
